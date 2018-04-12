@@ -20,13 +20,5 @@ app.on({ page: 'pageone', content: 'pageone.html' }, function (activity) {
 
 document.addEventListener('deviceready', function () {
     app.start()
-
-    admob.banner.config({
-        id: admobid.banner,
-        isTesting: false,
-        autoShow: true,
-    });
-
-    admob.banner.prepare();
 });
 
